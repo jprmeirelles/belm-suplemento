@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #0c0c0e;
+}
+
+img {
+    border: 0px;
+}
+
+div {}
+
+/* Header/Blog Title */
+.header {
+    display: table;
+    width: 100%;
+
+}
+
+.header div {
+    width: 33.33%;
+}
+
+.topleftdiv {
+    float:left;
+}
+
+
+.topcenterdiv {
+    background-color: #f1f1f1;
+    float: left;
+
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+}
+
+.topcenterdiv input {
+    font-size: 25px;
+    width: 550px;
+    border: 0px;
+}
+
+.search-box {
+    background-color: #ffffff;
+    width: 450px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.toprightdiv {
+    float: right;
+    width: 200px;
+}
+.carrinho{
+    height: 40px;
+}
+.perfil{
+    height: 40px;
+}
+.telefone{
+    height: 40px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #020746;
+    border-radius: 20px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #09045c;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #9b9ca1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: rgb(98, 98, 104);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.propaganda {
+    border-radius: 20px;
+    box-shadow: 10px black;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer h2 {
+    padding: 20px;
+    text-align: left;
+    background: #2804c9;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .search{width: 30%;}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}

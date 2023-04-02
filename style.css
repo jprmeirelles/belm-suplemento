@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/* google fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+body{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 1em;
+}
+/* Layout*/
+.container {
+    margin: 0 auto;
+}
+
+body{
+    background-image: linear-gradient(to right, #ffffff,#1825d4);
+}
+
+
+@media(min-width: 1140px)
+/* Layout*/
+.Container{
+    max-width:540px
+}
+
+main{
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    width: 1100px;
+    padding: 10px;
+    margin: auto;
+}
+
+.search-box{
+    background-color: #ffffff;
+    width: 450px;
+    align:"center"
+    font-size: 250px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+input{
+    font-size: 25px;
+    width: 300px;
+}
+
+.barra-opcoes{
+    float: center;
+    background-color: #ffffff;
+    margin-left: 15px;
+    margin-right: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    
+
+}
+.propaganda{
+    border-radius: 20px;
+    box-shadow: 10px black;
+}
+.header{
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
